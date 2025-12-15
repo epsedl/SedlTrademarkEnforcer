@@ -6,11 +6,11 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="TrademarkAutoCorrect"/>
   <Description DefaultValue="A template to get started."/>
-  <IconUrl DefaultValue="http://{{HOST}}:{{PORT}}/icon32.png"/>
-  <HighResolutionIconUrl DefaultValue="http://{{HOST}}:{{PORT}}/icon32.png"/>
-  <SupportUrl DefaultValue="http://{{HOST}}:{{PORT}}/"/>
+  <IconUrl DefaultValue="http://172.25.1.10:3010/icon32.png"/>
+  <HighResolutionIconUrl DefaultValue="http://172.25.1.10:3010/icon32.png"/>
+  <SupportUrl DefaultValue="http://172.25.1.10:3010/"/>
   <AppDomains>
-    <AppDomain>http://{{HOST}}:{{PORT}}</AppDomain>
+    <AppDomain>http://172.25.1.10:3010</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Mailbox"/>
@@ -23,7 +23,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="http://{{HOST}}:{{PORT}}/taskpane/taskpane.html"/>
+        <SourceLocation DefaultValue="http://172.25.1.10:3010/taskpane/taskpane.html"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -85,13 +85,13 @@
     </Hosts>
     <Resources>
       <bt:Images>
-        <bt:Image id="Icon.16x16" DefaultValue="http://{{HOST}}:{{PORT}}/assets/icon-16.png"/>
-        <bt:Image id="Icon.32x32" DefaultValue="http://{{HOST}}:{{PORT}}/assets/icon-32.png"/>
-        <bt:Image id="Icon.80x80" DefaultValue="http://{{HOST}}:{{PORT}}/assets/icon-80.png"/>
+        <bt:Image id="Icon.16x16" DefaultValue="http://172.25.1.10:3010/assets/icon-16.png"/>
+        <bt:Image id="Icon.32x32" DefaultValue="http://172.25.1.10:3010/assets/icon-32.png"/>
+        <bt:Image id="Icon.80x80" DefaultValue="http://172.25.1.10:3010/assets/icon-80.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="Commands.Url" DefaultValue="http://{{HOST}}:{{PORT}}/commands/commands.html"/>
-        <bt:Url id="Taskpane.Url" DefaultValue="http://{{HOST}}:{{PORT}}/taskpane/taskpane.html"/>
+        <bt:Url id="Commands.Url" DefaultValue="http://172.25.1.10:3010/commands/commands.html"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="http://172.25.1.10:3010/taskpane/taskpane.html"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="GroupLabel" DefaultValue="Contoso Add-in"/>
