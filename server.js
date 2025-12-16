@@ -15,12 +15,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 // });
 
 app.listen(PORT, HOST, () => {
-  let localUrl = `http://${HOST}:${PORT}`;
-  let domainUrl = process.env.DOMAIN ? `https://${process.env.DOMAIN}/` : null;
-  console.log(`Server running at: ${localUrl}`);
-  if (domainUrl) {
-    console.log(`Also accessible via domain: ${domainUrl}`);
-    // NOTE: This server is running HTTP only. To serve HTTPS, you must set up SSL certificates and use the https module.
-    // Example: https.createServer({ key, cert }, app).listen(443);
-  }
+  let domainUrl = process.env.DOMAIN ? `https://${process.env.DOMAIN}/` : `http://${HOST}:${PORT}`;
+  console.log(`Server running at: ${domainUrl}`);
+  // NOTE: This server is running HTTP only. To serve HTTPS, you must set up SSL certificates and use the https module.
+  // Example: https.createServer({ key, cert }, app).listen(443);
 });
