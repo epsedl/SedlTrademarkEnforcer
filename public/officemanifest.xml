@@ -1,7 +1,5 @@
-This XML file does not appear to have any style information associated with it. The document tree is shown below.
-
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="TaskPaneApp">
-<Id>bfcf9f72-6e67-4f88-806c-5be64328cd3c</Id>
+<Id>1720b7f6-41da-4383-ab8d-72a0506bac77</Id>
 <Version>1.0.0.0</Version>
 <ProviderName>Contoso</ProviderName>
 <DefaultLocale>en-US</DefaultLocale>
@@ -12,7 +10,6 @@ This XML file does not appear to have any style information associated with it. 
 <SupportUrl DefaultValue="https://www.contoso.com/help"/>
 <AppDomains>
 <AppDomain>https://www.contoso.com</AppDomain>
-<AppDomain>https://utility.sedl.in</AppDomain>
 </AppDomains>
 <Hosts>
 <Host Name="Document"/>
